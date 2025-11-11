@@ -10,4 +10,5 @@ public class Enemy extends AbstractCharacter {
     public void attack(AbstractCharacter target) {
         target.setHealth(target.getHealth() - this.getStrength());
     }
+
 }
